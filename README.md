@@ -29,7 +29,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
  - [Solution](https://your-solution-url.com)
- -[live Demo](https://hazemhussein14.github.io/Qr-code-component/)
+ - [live Demo](https://hazemhussein14.github.io/Qr-code-component/)
 
 ## My process
 
