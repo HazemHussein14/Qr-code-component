@@ -13,7 +13,7 @@ body {
   justify-content: space-evenly;
 }
 .container {
-  width: 400px;
+  max-width: 360px;
 }
 .card {
   background-color: #fff;
@@ -23,23 +23,38 @@ body {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.05);
 }
 .card img {
-  width: 100%;
+  max-width: 100%;
   border-radius: 11px;
 }
+.card h1,
+.card p {
+  padding: 0 16px;
+}
 .card h1 {
-  font-size: 29px;
-  margin: 18px 0;
+  font-size: 25px;
   color: hsl(218, 44%, 22%);
+  margin: 16px 0;
 }
 .card p {
   font-size: 17px;
-  padding: 0 30px 30px 30px;
   color: hsl(220, 15%, 55%);
   letter-spacing: 0.7px;
+  padding-bottom: 24px;
 }
 .attribution {
   font-size: 18px;
   text-align: center;
+}
+@media (max-width: 392px) {
+  body {
+    padding: 15px;
+  }
+  .card h1 {
+    font-size: 22px;
+  }
+  .card p {
+    font-size: 15px;
+  }
 }
 
 .attribution a {
